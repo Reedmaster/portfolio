@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="Project 1.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/373e42e3a4.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -13,65 +13,93 @@
 
         </div>
 
-        <nav>
+        <nav id="nav_section">
             <div>
-                <div class="logo">
-                    <p>Alexander Reed</p>
-                </div>
                 <div class="container">
                     <div id="stickybox"></div>
                     <div id="titlebox">
                         <a href="#">
-                            <img src="home-run.png" alt="home" height="30" width="30"/>
+                            <img src="home-run.png" alt="home_icon" class="icon"/>
                         </a>
-                        <a href="#">
-                            <img src="user.png" alt="about" height="30" width="30"/>
+                        <a href="#about_section">
+                            <img src="user.png" alt="about_icon" class="icon"/>
                         </a>
-                        <a href="#">
-                            <img src="work.png" alt="projects" height="30" width="30"/>
+                        <a href="#projects_section">
+                            <img src="work.png" alt="projects_icon" class="icon"/>
                         </a>
-                        <a href="#">
-                            <img src="communications.png" alt="contacts" height="30" width="30"/>
+                        <a href="#contacts_section">
+                            <img src="communications.png" alt="contacts_icon" class="icon"/>
                         </a>
                     </div>
                 </div>
             </div>
         </nav>
-            
-        <header>
 
-        </header>
-
-        <section>
+        <section id="about_section">
             <div class="container">
-                <h1>About</h1>
-                <p>placeholder text</p>
+                <h1 id="about">About</h1>
+                <div class="row">
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <main>
+        <main id="projects_section">
             <div class="container">
-                <h1>Projects</h1>
-                <p>placeholder text</p>
+                <h1 id="projects">Projects</h1>
                 <div class="row">
-                    <div class="column">
-
+                    <div id="project1" class="flipcard">
+                        <div class="flipcard_inner">
+                            <div class="flipcard1_front"></div>
+                            <div class="flipcard1-back"></div>
+                        </div>
                     </div>
-                    <div class="column">
-                        
-                    </div>
-                    <div class="column">
-                        
-                    </div>
+                    <div id="project2" class="flipcard"></div>
+                    <div id="project3" class="flipcard"></div>
+                </div>
+                <div class="row">
+                    <div id="project4" class="flipcard"></div>
+                    <div id="project5" class="flipcard"></div>
+                    <div id="project6" class="flipcard"></div>
                 </div>
             </div>
         </main>
 
-        <footer>
+        <footer id="contacts_section">
             <div class="container">
-                <h1>Contacts</h1>
+                <h1 id="contacts">Contacts</h1>
                 <div class="email">
                     <a href="mailto:areed22496@gmail.com">areed22496@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer_container">
+                <div class="social_media_container">
+                    <div class="footer_icon">
+                        <a href="">
+                            <img src="linkedin.png" alt="linkedin_icon" height="50" width="50"/>
+                        </a>
+                    </div>
+                    <div class="footer_icon">
+                        <a href="">
+                            <img src="github_icon.png" alt="github_icon" height="50" width="50"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="bottom_container">
+                    <p>Alexander Reed ©2020</p>
                 </div>
             </div>
         </footer>
