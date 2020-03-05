@@ -3,7 +3,8 @@ body {
     padding: 0;
 }
 
-/* nav bar */
+/* navbar */
+
 nav {
     display: flex;
     background-image: url("background3.png");
@@ -131,6 +132,7 @@ nav .icon {
 }
 
 /* section */
+
 section {
     display: flex;
     justify-content: center;
@@ -201,6 +203,7 @@ section #top_column {
 }
 
 /* main */
+
 main {
     display: flex;
     justify-content: center;
@@ -296,6 +299,7 @@ main .card {
 }
 
 /* footer */
+
 footer {
     display: flex;
     flex-direction: column;
