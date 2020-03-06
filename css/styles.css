@@ -90,6 +90,10 @@ nav .icon {
 }
 
 @media screen and (max-width: 450px) {
+    .title_container {
+        margin-top: 20vw;
+    }
+    
     h2 {
         font-size: 8vw;
     }
@@ -199,6 +203,10 @@ section #top_column {
     h1 {
         font-size: 5vw;
         margin-top: 10px;
+    }
+
+    section p {
+        font-size: 10px;
     }
 }
 
