@@ -199,7 +199,7 @@ section .main_container {
 section .left_box {
     width: 50%;
     margin: 0;
-    padding: 40px 15px;
+    padding: 40px 30px 40px 0;
 }
 
 section .description {
@@ -209,7 +209,7 @@ section .description {
 section .right_box {
     width: 50%;
     margin: 0;
-    padding: 40px 15px;
+    padding: 40px 0 40px 30px;
 }
 
 section .picture {
