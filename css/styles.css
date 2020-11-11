@@ -34,6 +34,10 @@ h2 {
     font-size: 4vw;
 }
 
+.title_container h2 {
+    margin-bottom: 20px;
+}
+
 nav p {
     color: #f5f5f5;
     font-size: 1.5vw;
